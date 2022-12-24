@@ -63,7 +63,7 @@ return
 Numpad0::
 Process, Exist, Obsidian.exe
 If Not ErrorLevel ; errorlevel will = 0 if process doesn't exist
-Run "C:\Users\DELTA SETINEL\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Obsidian.lnk"
+Run "**path to obsidian**"
 elseIf (ErrorLevel != 0)
   
 ifWinActive, vault - Obsidian v0.12.19
@@ -122,7 +122,7 @@ Return
 <#o::
 Process, Exist, Obsidian.exe
 If Not ErrorLevel ; errorlevel will = 0 if process doesn't exist
-Run "C:\Users\DELTA SETINEL\AppData\Local\Obsidian\Obsidian.exe"
+Run "**path to obsidian**"
 elseIf (ErrorLevel != 0)
 If Hidden 
 { 
